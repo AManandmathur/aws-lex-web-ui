@@ -5,7 +5,8 @@
 # build artifacts
 # NOTE: S3 path should match the BootstrapBucket and BootstrapPrefix parameters
 # in master.yaml template
-export BOOTSTRAP_BUCKET_PATH ?= aws-bigdata-blog/artifacts/aws-lex-web-ui/artifacts
+export BOOTSTRAP_BUCKET_PATH ?= https://s3.console.aws.amazon.com/s3/buckets/bucketmind25/?region=us-east-1&tab=overview 
+#aws-bigdata-blog/artifacts/aws-lex-web-ui/artifacts
 
 # S3 bucket hosting the web application
 # The Makefile in the root dir can sync the local files to it
