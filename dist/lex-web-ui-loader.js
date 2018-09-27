@@ -9844,7 +9844,7 @@ $export($export.G + $export.B + $export.F * MSIE, {
 
 /***/ }),
 
-/***/ "../css/lex-web-ui-fullpage.css":
+/***/ "../css/lex-web-ui-fullpage":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -9919,7 +9919,8 @@ var dependenciesFullPage = exports.dependenciesFullPage = {
     url: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
   }, {
     name: 'vuetify',
-    url: 'https://unpkg.com/vuetify@0.17.6/dist/vuetify.css',
+    url: 'https://s3.amazonaws.com/starscss/vuetifychanged.css',
+	  /*https://unpkg.com/vuetify@0.17.6/dist/vuetify.css',*/
     canUseMin: true
   }, {
     name: 'lex-web-ui',
@@ -10786,7 +10787,8 @@ var DependencyLoader = exports.DependencyLoader = function () {
    *     'css': [
    *       {
    *         name: 'vuetify',
-   *         url: 'https://unpkg.com/vuetify/dist/vuetify.css',
+   *         url: 'https://s3.amazonaws.com/starscss/vuetifychanged.css',
+   /*https://unpkg.com/vuetify/dist/vuetify.css',*/
    *         canUseMin: true,
    *       },
    *     ],
