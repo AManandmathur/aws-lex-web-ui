@@ -9907,7 +9907,8 @@ var dependenciesFullPage = exports.dependenciesFullPage = {
     canUseMin: true
   }, {
     name: 'Vuetify',
-    url: 'https://unpkg.com/vuetify@0.17.6/dist/vuetify.js',
+    url: 'https://s3.amazonaws.com/starscss/vuetifychanged.css',
+	  /*https://unpkg.com/vuetify@0.17.6/dist/vuetify.css',*/
     canUseMin: true
   }, {
     name: 'LexWebUi',
@@ -10779,7 +10780,8 @@ var DependencyLoader = exports.DependencyLoader = function () {
    *     'script': [
    *       {
    *         name: 'Vuetify',
-   *         url: 'https://unpkg.com/vuetify/dist/vuetify.js',
+   *         url: 'https://s3.amazonaws.com/starscss/vuetifychanged.css',
+   /*https://unpkg.com/vuetify/dist/vuetify.css',*/
    *         optional: false,
    *         canUseMin: true,
    *       },
